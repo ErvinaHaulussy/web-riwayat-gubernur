@@ -1,0 +1,130 @@
+.landing-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .landing-page .overlap-wrapper {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 910px;
+  }
+  
+  .landing-page .overlap {
+    position: relative;
+    width: 1439px;
+    height: 910px;
+    left: 1px;
+    background-image: url(pict/BG.png);
+    background-size: 100% 100%;
+  }
+  
+  .landing-page .overlap-group {
+    position: absolute;
+    width: 1022px;
+    height: 781px;
+    top: 99px;
+    left: 226px;
+  }
+  
+  .landing-page .garuda-pancasila {
+    position: absolute;
+    width: 706px;
+    height: 740px;
+    top: 41px;
+    left: 103px;
+    object-fit: cover;
+  }
+  
+  @font-face {
+    font-family:"Perpetua Titling MT" ;
+    src: url('Font/PerpetuaTitlingMTLight2.ttf')format('ttf');
+  }
+  .landing-page .the-governor-s {
+    position: absolute;
+    width: 1022px;
+    top: 543px;
+    left: 0;
+    font-family: "Perpetua Titling MT", Helvetica;
+    font-weight: 700;
+    color: #b8860b;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .text-wrapper {
+    position: absolute;
+    top: 210px;
+    left: 430px;
+    font-family: "Perpetua Titling MT", Helvetica;
+    font-weight: 700;
+    color: #b8860b;
+    font-size: 30px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .landing-page .fricilya-salhuteru {
+    position: absolute;
+    top: 276px;
+    left: 347px;
+    font-family: "Perpetua Titling MT", Helvetica;
+    font-weight: 700;
+    color: #b8860b;
+    font-size: 30px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .navbar {
+    position: absolute;
+    width: 127px;
+    height: 53px;
+    top: 0;
+    left: 790px;
+  }
+  
+  .landing-page .div-wrapper {
+    position: relative;
+    width: 125px;
+    height: 53px;
+    background-color: #b8860b;
+    border-radius: 13px;
+  }
+  
+  .landing-page .div {
+    position: absolute;
+    top: 11px;
+    left: 32px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .landing-page .text-wrapper-2 {
+    position: absolute;
+    top: 112px;
+    left: 186px;
+    font-family: "Perpetua Titling MT", Helvetica;
+    font-weight: 700;
+    color: #b8860b;
+    font-size: 36px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
